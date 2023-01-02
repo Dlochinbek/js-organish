@@ -519,17 +519,17 @@
 
 // 2-susul map yaratish:
 
-    const questions = new Map([
-        ['questions', 'Eng yaxshi dasturlash tili'],
-        [1, 'C'],
-        [2, 'Java'],
-        [3, 'Javascript'],
-        ['correct', 3],
-        [true, "togri topdingiz"],
-        [false, "notogri"],
-    ])
+    // const questions = new Map([
+    //     ['questions', 'Eng yaxshi dasturlash tili'],
+    //     [1, 'C'],
+    //     [2, 'Java'],
+    //     [3, 'Javascript'],
+    //     ['correct', 3],
+    //     [true, "togri topdingiz"],
+    //     [false, "notogri"],
+    // ])
 
-    console.log(questions.get("questions"));
+    //   console.log(questions.get("questions"));
 
     // CONVERT TO OBJECT TO MAP:
 
@@ -542,9 +542,29 @@
 
     // console.log(person);
 
-    for(const [key, value] of questions){
-        if(typeof key === 'number'){
-            console.log(`Savollari ${key}: ${value}`);
-        }
-    }
+    // for(const [key, value] of questions){
+    //     if(typeof key === 'number'){
+    //         console.log(`Savollari ${key}: ${value}`);
+    //     }
+    // }
     
+    // const answer = Number(prompt("Your answer"))
+
+    // console.log(questions.get(questions.get('correct')=== answer));
+
+    // console.log(questions);
+
+    // =================================================================:
+
+    // STRINGS:
+
+    const airline = "Ozbekiston Havo yollari";
+    const plane = "Boeing";
+
+    // console.log(airline[3]);
+    // console.log(plane[0]);
+    // console.log(plane.length);
+
+    // console.log(airline.indexOf("o"));
+
+    console.log(airline.slice(8));
