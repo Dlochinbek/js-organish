@@ -1,13 +1,14 @@
 "use strict"
 
-// WHILE LOOP:
+// // WHILE LOOP:
 
-// let rep = 1;
+// // let rep = 1;
 
-// while(rep <= 10){
-//     console.log(rep);
-//     
-// }
+// // while(rep <= 10){
+// //     console.log(rep);
+//         rep++
+
+// // }
 
 // DICE:
 
@@ -328,31 +329,31 @@
 
     // // console.log(arr3);
 
-    const restaurant = {
-        name: 'Rayhon Milliy Taomlar',
-        location: 'Tashkent',
-        categories: ['national', 'fast food', 'european cuisine', 'turkish'],
-        startMenu: ['somsa', 'lagman', 'salad', 'soup'],
-        mainMenu: ['osh', 'norin', 'manti'],
-        openingHours: {
-            mon: {
-                open: 8,
-                close: 22
-            },
-            tue: {
-                open: 8,
-                close: 23
-            },
-            wed: {
-                open: 9,
-                close: 21
-            },
-        },
+    // const restaurant = {
+    //     name: 'Rayhon Milliy Taomlar',
+    //     location: 'Tashkent',
+    //     categories: ['national', 'fast food', 'european cuisine', 'turkish'],
+    //     startMenu: ['somsa', 'lagman', 'salad', 'soup'],
+    //     mainMenu: ['osh', 'norin', 'manti'],
+    //     openingHours: {
+    //         mon: {
+    //             open: 8,
+    //             close: 22
+    //         },
+    //         tue: {
+    //             open: 8,
+    //             close: 23
+    //         },
+    //         wed: {
+    //             open: 9,
+    //             close: 21
+    //         },
+    //     },
     
-        order: function(startMenuIndex, mainMenuIndex) {
-            return [this.startMenu[startMenuIndex], this.mainMenu[startMenuIndex]]
-        }
-    }
+    //     order: function(startMenuIndex, mainMenuIndex) {
+    //         return [this.startMenu[startMenuIndex], this.mainMenu[startMenuIndex]]
+    //     }
+    // }
     
     // // SPREAD:
 
@@ -361,6 +362,24 @@
     // // ADD BEW PROPERTY
 
     // restaurant.mainMenu = newMenu;
+// ==========================================================================:
+
+      /*
+        1# declare a function called detonation_in
+        2# receives a parameter named seconds_left
+        3# include console.log("detonation in... "+seconds_left+" secondes.")
+        inside the block of the function
+        */
+        
+        // let   timer = 10;
+
+        // let secondes_left = 100;
+        
+        // while (timer === 100) {
+        //     detonation_in(timer);
+        //     console.log("detonation in... "+seconds_left+" secondes.")
+        //     detonation_in
+        // }
 
     // // SHALLOW COPY:
     
@@ -558,8 +577,8 @@
 
     // STRINGS:
 
-    const airline = "Ozbekiston Havo yollari";
-    const plane = "Boeing";
+    // const airline = "Ozbekiston Havo yollari";
+    // const plane = "Boeing";
 
     // console.log(airline[3]);
     // console.log(plane[0]);
@@ -567,4 +586,533 @@
 
     // console.log(airline.indexOf("o"));
 
-    console.log(airline.slice(8));
+    // console.log(airline.slice(8));
+
+    // ====================================================================
+
+    // REPLACE:
+
+    // const price = "250$"
+    // console.log(price.replace("$", "Sum"));
+    // console.log(price);
+
+    // REPLACE ALL:
+
+    // const messege = "Onlayn dasturlash kurslari, Bepul dasturlash kurslari"
+    // console.log(messege.replaceAll("dasturlash", "smm"));
+
+    // SPLIT:
+
+    // console.log("a very nice string".split(" "));
+
+    // PADDING STRING:
+
+    // console.log('Hello'.padEnd(15, "*"))
+
+    // REPEAT:
+
+    // const planesInAirport = function(n){
+    //     console.log(`Umumiy ${n} samolyot mavjud ${'✈️'.repeat(n)}`)
+    // } 
+    // planesInAirport(5)
+
+    // SOME:
+
+    // const numbers = [-23, 10, 98, 2005];
+
+    // console.log(numbers.some(num => num > 0 ));
+    // console.log(numbers.every(num => num > 0 ));
+
+    // const arr5 = [[1, [2,], 3], [4, 5], 6, 7];
+
+    // const arr5 = [1, 2, 3, 4]
+
+    // // console.log(arr5.flat(2));
+
+    // console.log(arr5.map(x => [x * 2]));
+    // console.log(arr5.flatMap(x => [x * 2]));
+
+    // console.log(arr5);
+
+    // SORT:
+
+    // numbers.sort()
+
+    // const founders = ["Murod Nazorov", "Temurbek adhamov", "Jahongir Polatov", "Umidjon Ishmuhammedov", "Muhammad Ali Eshonqulov"];
+
+    // founders.sort()
+
+    // console.log(founders);
+
+    // console.log(numbers);
+
+    // numbers.sort((a, b)=> {
+
+    //     if (a > b)  return 1
+    //     if(a < b) return -1
+    // })
+
+    // numbers.sort((a, b) => a - b);
+
+    // console.log(numbers);
+
+    // =========================================================================
+
+    // CALL METHOD:
+
+//     const havoYollar = {
+//         airline: "O'bkiston havo yullari",
+//         code: "HY",
+//         bookings: [],
+//         book(flightNum, name){
+//             this.bookings.push({
+//                 name: name,
+//                 airline: this.airline,
+//                 code: this.code,
+//                 flightNum: flightNum,
+//             })
+//         },
+//     };
+
+//     // console.log(havoYollar.book(43, "Lode"));
+
+//     const turkishAirlines = {
+//         airline: " Turkish Airline",
+//         code: "TA",
+//         bookings: [],
+//     }
+
+//     havoYollar.book(43, "karim")
+//     havoYollar.book(56, "Akbar")
+
+//     console.log(havoYollar.bookings);
+
+//     havoYollar.book(2005, "ali")
+
+//    // const savol = +prompt("Yoshingiz nechada")
+
+//     const a = document.querySelector("h1")
+
+    // =======================================================================:
+    // BIND:
+
+    // const swiss  = {
+    //     airline: "Swiss Airline",
+    //     code: "SA",
+    //     bookings: []
+    // }
+
+    // const book = havoYollar.book
+
+    // havoYollar.book(43, "Lodeee")
+    // havoYollar.book(34, "Rahimbek")
+    // book.call(turkishAirlines, 43, "Abdulloh")
+    // book.call(havoYollar, 32, "Hohn Doe")
+    // book.apply(swiss, [12, "HADICHAAAAA"])
+    
+    // const bookTa = book.bind(turkishAirlines)
+
+    // bookTa(65, "Steven")
+
+    // console.log(turkishAirlines.bookings, havoYollar.bookings, swiss.bookings);
+
+    // ============================================================================
+
+    // DATE:
+    
+    // const now = new Date() //hozirgi vaqt
+
+    // console.log(new Date(2009, 9, 21))
+
+    // document.write(now.getFullYear())
+
+    // document.write(now.getMonth())
+
+    // console.log(now.getDate());
+
+    // console.log(now.getHours());
+    
+    // console.log(now.toISOString())
+
+    // console.log(now.getTime());
+
+
+
+    // ========================================================================
+
+    //  SET TIME OUT:
+    
+    // setTimeout(function(){
+    //     console.log("Sizni vaqtingiz keldi");
+    // }, 3000, )
+
+    // console.log("ABC");
+
+    // =========================================================================
+
+    // SET INTERVAL:
+
+    // setInterval(function () {
+    //     const now = new Date();
+      
+    //     console.log(now);
+    //   }, 1000);
+      
+    //faqat soat, minut, sekund ko'rsatish kerak 
+
+    // const name = "lode";
+
+    // const fn = function () {
+
+    //     const job = "Dev"
+
+    //     console.log(name);
+    // } 
+    
+    // fn()
+
+    // console.log(job);
+       
+
+    // =========================================================================
+
+    // FOR LOOP:
+
+    //  const names = ['LODE', 'ALI', 'Doniyor', 'lo'];
+
+    // for(let i = 0; i < names.length; i++){
+    //     console.log(names[i].toUpperCase());
+    // }
+    
+    // let i = 0
+
+    // while(i < names.length){
+    //     console.log(names[i].toUpperCase());
+    //     i++
+    // }
+
+    // DO WHILE:
+
+    // let i = 0;
+
+    // while(i < 5){
+    //     console.log(names[i].toUpperCase());
+    //     i++
+    // }
+
+    //    do {
+    //         console.log(i)
+    //         i++
+    //     }
+
+    // while(i < 5)
+    
+    // const natijalar = [30, 43, 0, 65, 100, 20, 11,]
+
+    // for (let i = 0; i < natijalar.length; i++){
+    //     console.log('Siznging natijangiz', natijalar[i]);
+
+    //     if(natijalar[i] === 100){
+    //         console.log(`siz eng yuqori natijani topladiz`);
+    //         break
+    //     }
+
+        // if(natijalar[i] === 100){
+        //     console.log(`siz eng yuqori natijani topladiz`);
+        //     continue
+        // }
+    // }
+
+
+    // ==================================================
+
+    // SWITCH CASE:
+
+    // const baho = "Db";
+
+    // if (baho === "A") {
+        
+    // } else if(baho === 'B'){
+
+    // } else if(baho === 'C'){
+
+    // } else if(baho === "D"){
+
+    // } else{
+
+    // }
+
+    // switch(baho){
+    // case "A": 
+    //         console.log("Sizning bahoyigiz A");
+    //     break
+    // case "B": 
+    //         console.log("Sizning bahoyigiz B");
+    //     break
+    // case "C": 
+    //         console.log("Sizning bahoyigiz C");
+    //     break
+    // case "D": 
+    //         console.log("Sizning bahoyigiz A");
+    //     break
+    //     default: 
+    //         console.log('Szinging bahoyingiz');
+    // }
+
+    // ====================================================
+
+    // BLOCK SCKOPYE:
+
+    // =======================================================
+
+    // AMALIYOT 2
+
+        // 1- tpshirig`i
+
+    // let age = +prompt("Tugilgan yilingizni kiriting");
+
+    // let month = +prompt("Tugilgan oyingizni kiriting");
+
+    // let day = +prompt("tugilgan kuningizni kiriting");
+
+    // // let current = 
+
+    // let current2 = 12 - month
+    
+    // let current3 = 30 - day
+
+    // console.log(current,  current2, current3);
+
+        // 2-topshiriq
+    
+    // let ismlar = ["lode", "ali", "akbar"]
+
+    // let ism = prompt("ismingizni kiriting")
+    
+    // for(let i = 0; i < ismlar.length; i++ ){
+    //     // console.log(i);
+
+    //     switch(ism){
+    // case ismlar[0]: 
+    //         console.log("Bunday ism mavjud");
+    //     break
+    // case ismlar[1]: 
+    //         console.log("Bunday ism mavjud");
+    //     break
+    // case ismlar[2]: 
+    //         console.log("Bunday ism mavjud");
+    //     break
+    //     default: 
+    //         console.log("Bunday ism mavjud emas");
+    // }
+    
+    // }
+
+    // AMALIYOT 2:
+
+    // const ism = prompt("Ismingini kiriting");
+
+    // const yosh = +prompt("Yoshingizni kiriting");
+
+    // let yil = 2023 - yosh
+
+    // let oy = yosh * 12
+
+    // let hafta = ((yosh * 365)  /7).toFixed(0);
+
+    // let soat = yosh * 365 * 24
+
+    // let daqiqa = yosh * 365 * 24 * 60
+
+    // let soniya = yosh * 365 * 
+    // 24 * 60 * 60
+
+    // const result = `Qadrli ${ism}. Siz ${yil} yilda tug'ilgansiz
+    // Va siz ${oy} oy, ${hafta} Hafta, 
+    // ${soat} soat, ${daqiqa} daqiqa, ${soniya} soniya yashagansiz`
+    
+    // document.write(result)
+
+        // 2-topshiriq:
+
+    // includs
+
+    // let ism = prompt("Ismingizni kiritng:");
+
+    // let ismlar = ["lode", "ali", "akbar"];
+
+    // if (ismlar.includes(ism)) {
+    //     console.log(`Ha ${ism}bek ismi bor`)
+    // } else{
+    //     console.log("Bunday ism mavjud emas")
+    // }
+
+
+    // 3-topshriq:
+
+    // for bilan:
+
+    // let ismlar = ["lode", "ali", "akbar"];
+
+    // for(let i = 0; i < ismlar.length; i++){
+
+    //     let result2 = ismlar[i] + "bek"
+
+    //     console.log(result2);
+    // }
+
+    // WHILE:
+
+    // let index = 0
+
+    // while(index < ismlar.length){
+
+    //     let result2 = ismlar[index] + "bek"
+    //     console.log(result2);
+    //     index++
+    // }
+
+    // 4-topshiriq:
+
+    // let viloyatNomi = prompt('Qaysi viloyat kerak!');
+
+    // switch(viloyatNomi){
+    //     case "fargona":
+    //         document.write(" 2 millon aholi bor");
+    //     break;
+
+    //     case "andijon":
+    //         document.write(" 1.5 millon aholi bor");
+    //         break;
+
+    //     case "namangan":
+    //             document.write(" 1 millon aholi bor");
+    //         break;
+        
+    //     default:
+    //         document.write("Bunday viloyat nomi mavjud emas")
+    // }
+
+    // 5-topshiriq:
+
+
+    // let belgi = prompt("Belgi kirting");
+
+    // let meyor = 20
+
+    // if(belgi.length > meyor ){
+    //     alert(`Siz ${meyor} ta belgi kiriting, lekin hozir ${belgi.length} ta kiritidngiz. Bu yerda ${belgi.length - meyor} ta kop`)
+    // } else if(belgi.length == meyor){
+    //     console.log(`Yetarlicha`);
+    // } else{
+    //     console.log(`Siz ${meyor - belgi.length} ta kam kiritdingiz`)
+    // }
+
+
+
+    // FUNCTIONS:
+
+        // function declaration 
+    
+    // function sayHello() {
+    //     console.log('Function declaration');
+    // } sayHello()
+
+        // function expression
+
+    // let sayBy =  function (){
+    //     console.log('Say Bay Function Expression');
+    // } 
+    // sayBy()
+
+        // Arrow Function:
+    
+    // const nice = () =>{
+    //     console.log("This is Arrow function");
+    // }
+    // nice();
+
+    // ARGUMENTLAR VA PARAMETRLAR:
+
+    // const sayHello = function (name, day = "kun") {
+    //     console.log(`Hayrli ${day} ${name} `);
+    // } 
+    // sayHello("lode", "kech");
+
+    // FUNKSIYALARDA RETURN:
+
+    // const calcArea = function (radius) {
+
+    //     return 3 * radius
+
+    //     console.log(radius);
+    // }
+
+    // const a = calcArea(5)
+
+    // console.log(a);
+
+    // ARROW FUNCTION:
+
+    // const calcArea = (radius) => 3 * radius ** 2
+
+    // ===============================================================
+    
+    // const area = calcArea(5)
+    // console.log(area);
+
+    // const greet = function(ism){
+    //     return `Hello ${ism}`
+    // }
+
+    // const result = greet('lode')
+
+    // console.log(result);
+
+    // Arrow functionda:
+
+    // const greet = (ism) => {
+    //     return `Hello ${ism}`
+    // }
+
+    // const result = greet('lode')
+
+    // console.log(result);
+
+    // const bill = function(products, tax){
+    //     let total = 0
+    //     for(let i = 0; i < products.length; i++){
+    //         total += products[i] + products[i] * tax
+    //     }
+    //     return total
+    // }
+
+    // const bill = (products, tax) => {
+    //     let total = 0
+    //     for(let i = 0; i < products.length; i++){
+    //         total += products[i] + products[i] * tax
+    //     }
+    //     return total
+    // }
+
+    // const result = bill([10, 13, 45], 0.2)
+
+    // console.log(result);
+
+    // ==============================================
+
+    // FUNCTIONS VA METHODS:
+
+    // funsiya erkin  ishlay oladi - 
+    // Method esa ozi erkin ishlay ololmaydi doimo nimagadur boglanib keladi
+
+    // let say =  function (name){
+    //     console.log(`Mening raqamim ${name.toFixed(5)}`);
+    // }
+    // say(5 / 3)
+
+    // ==================================================================
+
+    // CALL BACK functions:
+
+    

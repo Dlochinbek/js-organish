@@ -1,20 +1,5 @@
 
-ul{
-    width: 800px;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid crimson;
-}
-
-li{
-    list-style: none;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(207, 18, 18);
-}
-
-li{
-    margin: 0px 0px 20px 20px ;
+body{
+    font-size: 22px;
+    font-family: sans-serif;
 }
